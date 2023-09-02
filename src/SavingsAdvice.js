@@ -23,7 +23,8 @@ function SavingsAdvice (props) {
           return advice[3];
         } 
         else {
-          return "Please choose your monthly expences from the list above so you can be rated and adviced accordingly."
+          return `Please choose your monthly expences from the list above 
+          so you can be rated and adviced accordingly.`
         }
       }
 
