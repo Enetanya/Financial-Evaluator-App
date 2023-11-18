@@ -26,7 +26,7 @@ function ExpenseSelection() {
    const expenses = [
     'Rent', 'Mortgage', 'Utilities', 'Groceries', 'Transportation', 'Healthcare', 'Insurance',
     'Entertainment', 'Dining Out', 'Gym Membership', 'Phone Bill', 'Internet Bill', 'Streaming Services',
-    'Travel', 'Clothing', 'Personal Care', 'Education', 'Savings', 'Debt Payments', 'Miscellaneous',
+    'Travel', 'Clothing', 'Personal Care', 'Education', 'Government Tax', 'Debt Payments', 'Miscellaneous',
   ];
 
   return (
