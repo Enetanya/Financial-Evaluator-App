@@ -42,7 +42,7 @@ let percentageSavings = remainingBalance/pincome  * 100;
         {/* Button to show the ExpenseCalculator */}
       <p>Remaining Balance: £{remainingBalance}</p>
       
-      <p>Remaining percentage: %{percentageSavings}</p>
+      <p>Remaining percentage: {percentageSavings}%</p>
       <div className='section'>
       <h2 className='header'> Financial Advice</h2>
       <p><SavingsAdvice savings={percentageSavings}/></p>
