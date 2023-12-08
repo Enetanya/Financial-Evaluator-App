@@ -38,9 +38,9 @@ let percentageSavings = remainingBalance/pincome  * 100;
       <button className='button-cal' onClick={showCalculator}>Calculate Expenses</button>
       {calculatorVisible && (
         <>
-      <p>Total Expenses: £{totalExpenses}</p>
+      <p>Total Expenses: £{totalExpenses.toFixed(2)}</p>
         {/* Button to show the ExpenseCalculator */}
-      <p>Remaining Balance: £{remainingBalance}</p>
+      <p>Remaining Balance: £{remainingBalance.toFixed(2)}</p>
       
       <p>Remaining percentage: {percentageSavings.toFixed(2)}%</p>
       <div className='section'>
