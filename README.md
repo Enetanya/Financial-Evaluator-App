@@ -1,5 +1,6 @@
 See link to a live version 
-https://ornate-zuccutto-506727.netlify.app/
+https://finance-evaluator.netlify.app
+
 
 This app is a financial evaluator application built using HTML, CSS and React.js. It allows users to input their monthly expenses, including various categories such as rent, groceries, and entertainment. The app calculates the total expenses and the remaining balance after subtracting expenses from the monthly income. Based on the remaining balance, it provides financial advice categorized into different levels, from "Congratulations" for a healthy financial position to advice for those facing financial challenges.
 
